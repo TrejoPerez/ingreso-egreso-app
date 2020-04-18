@@ -3,9 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCwea43JZmpkJMfmlO278cDEK-Ne2iNoC4',
+    authDomain: 'ingreso-egreso-app-8e31f.firebaseapp.com',
+    databaseURL: 'https://ingreso-egreso-app-8e31f.firebaseio.com',
+    projectId: 'ingreso-egreso-app-8e31f',
+    storageBucket: 'ingreso-egreso-app-8e31f.appspot.com',
+    messagingSenderId: '1075185252966',
+    appId: '1:1075185252966:web:aab1a22eb5a6de18964ba7'
+  }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
